@@ -1,2 +1,2 @@
-# Color Toggler 
-this is a color toggler which switches from light mode to darkmode as the user toggles on the button
+# Random Background Color 
+This is a background color button which switches to other different background colors based on when it is clicked

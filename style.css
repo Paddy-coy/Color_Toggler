@@ -1,49 +1,39 @@
 
-.sec-one {
-  background-color:  background-color: white;
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  transition: background-color 0.5s ease;
-  overflow: hidden;
+#default-Bg {
+  width:100vw;
+  height:100vh;
+  background: #8a2be2;
+  overflow:hidden;
 }
 
 
-.btn {
-  position: relative;
-  background-color: black;
-  color: white;
-  width: 120px;
-  height: 56px;
-  padding: 0.75rem 1.5rem;
-  border-radius: 9999px;
-  border: none;
-  cursor: pointer;
-  margin: 400px auto;
-  display: block;
-  transition: background-color 0.3s;
+#btn1 {
+  
+border:1px solid white;
+color:white;
+
+margin-top:300px;
+margin-left:280px;
+padding:10px;
+margin-bottom:10px;
+cursor:pointer;
+
+}
+
+#btn1:hover{
+
+  background:white;
+  color:black;
+  content : ''
+}
+
+#hexNum1 {
+
+  color:white;
+  font-size:30px;
+  text-align:center
+ 
 }
 
 
-.circle {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: white;
-  left: 4px;
-  transition: left 0.3s;
-}
-
-
-.btn.active {
-  background-color: white;
-}
-
-.btn.active .circle {
-  background-color: black;
-  left: 76px;
-}
+#
