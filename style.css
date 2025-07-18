@@ -1,0 +1,49 @@
+
+.sec-one {
+  background-color:  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.5s ease;
+  overflow: hidden;
+}
+
+
+.btn {
+  position: relative;
+  background-color: black;
+  color: white;
+  width: 120px;
+  height: 56px;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  margin: 400px auto;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+
+.circle {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  left: 4px;
+  transition: left 0.3s;
+}
+
+
+.btn.active {
+  background-color: white;
+}
+
+.btn.active .circle {
+  background-color: black;
+  left: 76px;
+}
